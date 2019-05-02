@@ -1,0 +1,19 @@
+name: crystal-blockchain
+version: 0.1.0
+
+authors:
+  - John Feras <jferas@ferasinfotech.com>
+
+targets:
+  crystal-blockchain:
+    main: src/crystal-blockchain.cr
+
+dependencies:
+  kemal:
+    github: sdogruyol/kemal
+  crustache:
+    github: MakeNowJust/crustache
+    
+crystal: 0.28.0
+
+license: MIT
